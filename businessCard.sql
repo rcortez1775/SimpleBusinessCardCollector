@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS card_db;
+CREATE DATABASE card_db;
+
+USE card_db;
+
+CREATE TABLE people (
+  id INTEGER(11)
+  AUTO_INCREMENT NOT NULL,
+  name VARCHAR(30) NOT NULL,
+  phoneNumber VARCHAR(30) NOT NULL,
+  email VARCHAR(30) NOT NULL,
+  notes VARCHAR(30) NOT NULL,
+);
