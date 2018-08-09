@@ -3,12 +3,12 @@ $(document).ready(function () {
         event.preventDefault();
         let newPerson = {
             Name: $("#Name").val().trim(),
-            phoneNumber: $("#phoneNumber").val().trim(),
+            phone: $("#phone").val().trim(),
             email: $("#email").val().trim(),
             notes: $("#notes").val(),
         }
         $("#Name").val("");
-        $("#phoneNumber").val("");
+        $("#phone").val("");
         $("#email").val("");
         $("#notes").val("");
         $('.modal').modal();
