@@ -1,0 +1,26 @@
+{
+  "name": "simplebusinesscardcollector",
+  "version": "1.0.0",
+  "description": "## Technologies The Simple Business Card Collector utilizes html, css, javascript and mysql Workbench.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcortez1775/SimpleBusinessCardCollector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcortez1775/SimpleBusinessCardCollector/issues"
+  },
+  "homepage": "https://github.com/rcortez1775/SimpleBusinessCardCollector#readme"
+}
