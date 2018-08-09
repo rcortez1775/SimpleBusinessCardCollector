@@ -7,7 +7,7 @@ $(document).ready(function () {
             email: $("#email").val().trim(),
             notes: $("#notes").val(),
         }
-        $.post("/api/people", newPerson).then(function (data) {
+        $.post("/api/contacts", newPerson).then(function (data) {
             console.log(data);
         });
         $("#Name").val("");
